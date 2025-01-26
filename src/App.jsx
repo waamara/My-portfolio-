@@ -1,9 +1,13 @@
-import Head from './Head'
+import Head from './Head' 
+import Homepage from './Homepage'
 
 const App = () => {
   return (
     <div>
-      <Head></Head>
+      <>
+      <Head/> 
+      <Homepage/>
+      </>
     </div>
   )
 }
