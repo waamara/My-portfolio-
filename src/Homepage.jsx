@@ -1,4 +1,3 @@
-import React from 'react'
 import Dow from "../src/assets/Icon.png"
 import See from "../src/assets/Icon (1).png"
 import Myimg from "../src/assets/Myimg.jpg" 
