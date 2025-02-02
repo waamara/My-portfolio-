@@ -22,21 +22,21 @@ const About = () => {
             </div>
             <div className='flex flex-row'>
                 <div>
-                <div className='w-[250px] h-[200px] bg-slate-400 rounded-xl'>
-                    <div className='flex flex-row justify-center p-4 '>
-                        <p>my skills</p> 
-                        <p>The Advanced Technologies I Use to Build Exceptional Websites That Delight Users and Achieve Results</p>
-                        <img src={Star} alt="star-img" />
+                    <div className='w-[250px] h-[200px] bg-slate-400 rounded-xl'>
+                        <div className='flex flex-row justify-center p-4 '>
+                            <p>my skills</p>
+                            <p>The Advanced Technologies I Use to Build Exceptional Websites That Delight Users and Achieve Results</p>
+                            <img src={Star} alt="star-img" />
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div>
-                <div className='w-[250px] h-[200px] bg-slate-400 rounded-xl'>
-                    <div className='flex flex-row justify-center p-4 '>
-                        <p>Interests</p>
-                        <img src={Star} alt="star-img" />
+                    <div className='w-[250px] h-[200px] bg-slate-400 rounded-xl'>
+                        <div className='flex flex-row justify-center p-4 '>
+                            <p>Interests</p>
+                            <img src={Star} alt="star-img" />
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
             <div className='flex flex-row'>
