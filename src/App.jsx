@@ -3,11 +3,15 @@ import Head from './Head'
 import Homepage from './Homepage' 
 import Contact from './Contact' 
 import About from './About'
-import Works from './Works'
+import Works from './Works' 
+import Bgimg from "../src/assets/Bg.png"
 
 const App = () => {
   return (
-    <div>
+    <div
+    style={{backgroundImage:`url(${Bgimg})`}} 
+    className='text-white bg-blue-950'
+    >
       <Router>
         <div>
           <Head></Head> 

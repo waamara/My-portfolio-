@@ -1,6 +1,6 @@
 import Dow from "../src/assets/Icon.png"
 import See from "../src/assets/Icon (1).png"
-import Myimg from "../src/assets/Myimg.jpg" 
+import Myimg from "../src/assets/Myimg.jpg"
 import Icon from "../src/assets/Icon.png"
 
 const Homepage = () => {
@@ -42,7 +42,6 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
-
             <div className='flex flex-row' >
                 <div className=' m-20 w-[400px] h-[150px] rounded-md bg-slate-200'>
                     <p className='m-4'>Popular repo</p>
@@ -51,9 +50,7 @@ const Homepage = () => {
                     <p className='m-4'>My Github Controbutions </p>
                 </div>
             </div>
-
         </div>
-
     )
 }
 

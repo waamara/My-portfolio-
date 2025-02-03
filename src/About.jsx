@@ -4,7 +4,7 @@ import Star from "../src/assets/Staricon.png"
 
 const About = () => {
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col h-screen'>
             <div className='flex flex-row ml-32 mt-16'>
                 <div className='flex flex-row w-[550px] mr-20' >
                     <img src={Myimg} alt="Myimg" className='w-[150px] mr-8' />
