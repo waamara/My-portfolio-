@@ -1,4 +1,3 @@
-import React from 'react'
 import Myimg from "../src/assets/Myimg.jpg"
 import Star from "../src/assets/Staricon.png"
 
@@ -9,7 +8,7 @@ const About = () => {
                 <div className='flex flex-row w-[550px] mr-20' >
                     <img src={Myimg} alt="Myimg" className='w-[150px] mr-8' />
                     <div>
-                        <p className='text-2xl font-semibold mb-4'>Im Aymen Berbiche</p>
+                        <p className='text-2xl font-semibold mb-4 mt-4'>Im Aymen Berbiche</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima et debitis quisquam nulla earum vel inventore magni, quibusdam voluptate praesentium odio.  </p>
                     </div>
                 </div>
