@@ -12,10 +12,17 @@ const About = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima et debitis quisquam nulla earum vel inventore magni, quibusdam voluptate praesentium odio.  </p>
                     </div>
                 </div>
-                <div className='w-[250px] h-[200px] bg-slate-400 rounded-xl'>
-                    <div className='flex flex-row justify-center p-4 '>
-                        <p>Interests</p>
+                <div className='w-[250px] h-[200px] bg-gray-900 rounded-xl'>
+                    <div className='flex flex-row justify-center p-3 font-medium  '>
+                        <p className="text-lg mr-3">Interests</p>
                         <img src={Star} alt="star-img" />
+                    </div>
+                    <div>
+                        <div className="backdrop-brightness-200  h-[30px] w-[95px]  rounded-xl pl-4  "><p>Branding</p></div>
+                        <div className="backdrop-brightness-200  h-[30px] w-[95px]  rounded-xl pl-4  "><p>Branding</p></div>
+                        <div className="backdrop-brightness-200  h-[30px] w-[95px]  rounded-xl pl-4  "><p>Branding</p></div>
+                        <div className="backdrop-brightness-200  h-[30px] w-[95px]  rounded-xl pl-4  "><p>Branding</p></div>
+                        <div className="backdrop-brightness-200  h-[30px] w-[95px]  rounded-xl pl-4  "><p>Branding</p></div>
                     </div>
                 </div>
             </div>
