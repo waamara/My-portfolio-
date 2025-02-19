@@ -27,20 +27,23 @@ const About = () => {
                 </div>
             </div>
             <div className='flex flex-row'>
-                <div>
-                    <div className='w-[250px] h-[200px] bg-slate-400 rounded-xl'>
+                <div className="ml-28">
+                    <div className='w-[250px] h-[200px] backdrop-brightness-150 rounded-xl mt-10'>
                         <div className='flex flex-row justify-center p-4 '>
-                            <p>my skills</p>
-                            <p>The Advanced Technologies I Use to Build Exceptional Websites That Delight Users and Achieve Results</p>
+                            <p className="text-lg font-semibold">My skills</p>
                             <img src={Star} alt="star-img" />
                         </div>
-                    </div>
-                </div>
-                <div>
-                    <div className='w-[250px] h-[200px] bg-slate-400 rounded-xl'>
+                        <div>
+                            <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p> 
+                        </div>
+                    </div> 
+                    <div className='w-[250px] h-[200px] backdrop-brightness-150 rounded-xl mt-10'>
                         <div className='flex flex-row justify-center p-4 '>
-                            <p>Interests</p>
+                            <p className="text-lg font-semibold">My skills</p>
                             <img src={Star} alt="star-img" />
+                        </div>
+                        <div>
+                            <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p> 
                         </div>
                     </div>
                 </div>
