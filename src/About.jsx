@@ -1,7 +1,12 @@
 import Myimg from "../src/assets/Myimg.jpg"
 import Star from "../src/assets/Staricon.png"
 import Linkedin from "../src/assets/linkedin.png"
-import Email from "../src/assets/email (3).png"
+import Email from "../src/assets/email (3).png" 
+import Icon1 from "../src/assets/Icon (4).png"
+import Icon2 from "../src/assets/Icon (5).png"
+import Icon3 from "../src/assets/Icon (6).png"
+import Icon4 from "../src/assets/Icon (7).png"
+
 
 const About = () => {
     return (
@@ -32,7 +37,7 @@ const About = () => {
                 <div className='w-[400px] h-[300px] backdrop-brightness-150 rounded-xl mt-10 mr-10'>
                     <div className='flex flex-row justify-center p-4 '>
                         <p className="text-lg font-semibold">My skills</p>
-                        <img src={Star} alt="star-img" />
+                        <img src={Icon4} alt="icone-img" />
                     </div>
                     <div>
                         <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p>
@@ -41,7 +46,7 @@ const About = () => {
                 <div className='w-[600px] h-[300px] backdrop-brightness-150 rounded-xl mt-10'>
                     <div className='flex flex-row  p-4 '>
                         <p className="text-lg font-semibold">Experience</p>
-                        <img src={Star} alt="star-img" />
+                        <img src={Icon3} alt="icone-img" />
                     </div>
                     <div className="overflow-y-scroll h-[230px]">
                         <div className="bg-slate-600 rounded-xl m-4 p-4  ">
@@ -91,7 +96,7 @@ const About = () => {
                 <div className='w-[550px] h-[270px] backdrop-brightness-150 rounded-xl mt-10 mr-10'>
                     <div className='flex flex-row  p-4 '>
                         <p className="text-lg font-semibold">Testamonial </p>
-                        <img src={Star} alt="star-img" />
+                        <img src={Icon2} alt="icone-img" />
                     </div>
                     <div className="bg-slate-900 m-4  rounded-xl p-3">
                         <div className="flex flex-row">
