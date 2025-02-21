@@ -27,28 +27,73 @@ const About = () => {
                 </div>
             </div>
             <div className='flex flex-row ml-28'>
-                    <div className='w-[400px] h-[300px] backdrop-brightness-150 rounded-xl mt-10 mr-10'>
-                        <div className='flex flex-row justify-center p-4 '>
-                            <p className="text-lg font-semibold">My skills</p>
-                            <img src={Star} alt="star-img" />
+                <div className='w-[400px] h-[300px] backdrop-brightness-150 rounded-xl mt-10 mr-10'>
+                    <div className='flex flex-row justify-center p-4 '>
+                        <p className="text-lg font-semibold">My skills</p>
+                        <img src={Star} alt="star-img" />
+                    </div>
+                    <div>
+                        <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p>
+                    </div>
+                </div>
+                <div className='w-[600px] h-[300px] backdrop-brightness-150 rounded-xl mt-10'>
+                    <div className='flex flex-row  p-4 '>
+                        <p className="text-lg font-semibold">Experience</p>
+                        <img src={Star} alt="star-img" />
+                    </div>
+                    <div className="overflow-y-scroll h-[230px]">
+                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
+                            <p>Jul. 2023 - Ago. 2023</p> <br />
+                            <div className="flex flex-row justify-between">
+                                <p >Senior Graphic Designer</p> 
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
+                            </div>
+                            <p>Pinnacle | Full-time</p>
+                        </div> 
+                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
+                            <p>Jul. 2023 - Ago. 2023</p> <br />
+                            <div className="flex flex-row justify-between">
+                                <p >Senior Graphic Designer</p> 
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
+                            </div>
+                            <p>Pinnacle | Full-time</p>
+                        </div> 
+                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
+                            <p>Jul. 2023 - Ago. 2023</p> <br />
+                            <div className="flex flex-row justify-between">
+                                <p >Senior Graphic Designer</p> 
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
+                            </div>
+                            <p>Pinnacle | Full-time</p>
                         </div>
-                        <div>
-                            <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p> 
+                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
+                            <p>Jul. 2023 - Ago. 2023</p> <br />
+                            <div className="flex flex-row justify-between">
+                                <p >Senior Graphic Designer</p> 
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
+                            </div>
+                            <p>Pinnacle | Full-time</p>
                         </div>
-                    </div> 
-                    <div className='w-[500px] h-[300px] backdrop-brightness-150 rounded-xl mt-10'>
-                        <div className='flex flex-row justify-center p-4 '>
-                            <p className="text-lg font-semibold">My skills</p>
-                            <img src={Star} alt="star-img" />
+                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
+                            <p>Jul. 2023 - Ago. 2023</p> <br />
+                            <div className="flex flex-row justify-between">
+                                <p >Senior Graphic Designer</p> 
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
+                            </div>
+                            <p>Pinnacle | Full-time</p>
                         </div>
-                        <div>
-                            <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p> 
-                        </div>
-                    </div> 
+                    </div>
+                </div>
             </div>
             <div className='flex flex-row'>
-                <div></div>
-                <div></div>
+                <div>
+                    <h6>t</h6>
+                </div>
+                <div>
+                    <h1>'
+                        
+                    </h1>
+                </div>
             </div>
         </div>
     )
