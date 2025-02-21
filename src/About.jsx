@@ -1,9 +1,11 @@
 import Myimg from "../src/assets/Myimg.jpg"
 import Star from "../src/assets/Staricon.png"
+import Linkedin from "../src/assets/linkedin.png"
+import Email from "../src/assets/email (3).png"
 
 const About = () => {
     return (
-        <div className='flex flex-col h-screen '>
+        <div className='flex flex-col h-full pb-14 '>
             <div className='flex flex-row ml-32 mt-16'>
                 <div className='flex flex-row w-[550px] mr-20' >
                     <img src={Myimg} alt="Myimg" className='w-[150px] mr-8' />
@@ -45,54 +47,71 @@ const About = () => {
                         <div className="bg-slate-600 rounded-xl m-4 p-4  ">
                             <p>Jul. 2023 - Ago. 2023</p> <br />
                             <div className="flex flex-row justify-between">
-                                <p >Senior Graphic Designer</p> 
-                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
-                            </div>
-                            <p>Pinnacle | Full-time</p>
-                        </div> 
-                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
-                            <p>Jul. 2023 - Ago. 2023</p> <br />
-                            <div className="flex flex-row justify-between">
-                                <p >Senior Graphic Designer</p> 
-                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
-                            </div>
-                            <p>Pinnacle | Full-time</p>
-                        </div> 
-                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
-                            <p>Jul. 2023 - Ago. 2023</p> <br />
-                            <div className="flex flex-row justify-between">
-                                <p >Senior Graphic Designer</p> 
-                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
+                                <p >Senior Graphic Designer</p>
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>
                             </div>
                             <p>Pinnacle | Full-time</p>
                         </div>
                         <div className="bg-slate-600 rounded-xl m-4 p-4  ">
                             <p>Jul. 2023 - Ago. 2023</p> <br />
                             <div className="flex flex-row justify-between">
-                                <p >Senior Graphic Designer</p> 
-                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
+                                <p >Senior Graphic Designer</p>
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>
                             </div>
                             <p>Pinnacle | Full-time</p>
                         </div>
                         <div className="bg-slate-600 rounded-xl m-4 p-4  ">
                             <p>Jul. 2023 - Ago. 2023</p> <br />
                             <div className="flex flex-row justify-between">
-                                <p >Senior Graphic Designer</p> 
-                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>                        
+                                <p >Senior Graphic Designer</p>
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>
+                            </div>
+                            <p>Pinnacle | Full-time</p>
+                        </div>
+                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
+                            <p>Jul. 2023 - Ago. 2023</p> <br />
+                            <div className="flex flex-row justify-between">
+                                <p >Senior Graphic Designer</p>
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>
+                            </div>
+                            <p>Pinnacle | Full-time</p>
+                        </div>
+                        <div className="bg-slate-600 rounded-xl m-4 p-4  ">
+                            <p>Jul. 2023 - Ago. 2023</p> <br />
+                            <div className="flex flex-row justify-between">
+                                <p >Senior Graphic Designer</p>
+                                <p>Research and brainstorm various design ideas for <br />  content and marketing...</p>
                             </div>
                             <p>Pinnacle | Full-time</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row'>
-                <div>
-                    <h6>t</h6>
+            <div className='flex flex-row ml-28'>
+                <div className='w-[550px] h-[300px] backdrop-brightness-150 rounded-xl mt-10 mr-10'>
+                    <div className='flex flex-row justify-center p-4 '>
+                        <p className="text-lg font-semibold">My skills</p>
+                        <img src={Star} alt="star-img" />
+                    </div>
+                    <div>
+                        <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p>
+                    </div>
                 </div>
-                <div>
-                    <h1>'
-                        
-                    </h1>
+                <div className='w-[450px] h-[270px] backdrop-brightness-150 rounded-xl mt-10'>
+                    <div className='flex flex-col  p-4 justify-center text-center '>
+                        <p className="mb-5 text-3xl font-semibold">Let's create something <br /> great together !</p>
+                        <p >Feel free to reach out anytime you have a <br /> project idea – I’d love to collaborate!</p>
+                    </div>
+                    <div className="ml-20"> 
+                        <div className="flex flex-row  w-52   border-b-2 mb-3  border-b-blue-400">
+                            <img src={Email} alt="email-icone" className="w-4 h-4 mt-1 mr-4" />
+                            <p>aymenemail@gmail.com</p>  <br />
+                        </div>
+                        <div className="flex flex-row w-52  border-b-2   border-b-blue-400">
+                            <img src={Linkedin} alt="linkedin-icone" className="w-4 h-4 mt-1 mr-4" />
+                            <a href="https://www.linkedin.com/in/aymen-berbiche-772a13280/"  >Reach me on LinkedIn</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
