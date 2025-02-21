@@ -88,13 +88,27 @@ const About = () => {
                 </div>
             </div>
             <div className='flex flex-row ml-28'>
-                <div className='w-[550px] h-[300px] backdrop-brightness-150 rounded-xl mt-10 mr-10'>
-                    <div className='flex flex-row justify-center p-4 '>
-                        <p className="text-lg font-semibold">My skills</p>
+                <div className='w-[550px] h-[270px] backdrop-brightness-150 rounded-xl mt-10 mr-10'>
+                    <div className='flex flex-row  p-4 '>
+                        <p className="text-lg font-semibold">Testamonial </p>
                         <img src={Star} alt="star-img" />
                     </div>
-                    <div>
-                        <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p>
+                    <div className="bg-slate-900 m-4  rounded-xl p-3">
+                        <div className="flex flex-row">
+                            <div>
+                                <img src={Myimg}
+                                alt="person-image"
+                                className="w-[50px] rounded-xl" />
+                            </div>
+                            <div className="ml-4">
+                                <p className="mb-2">Full name</p>
+                                <p>Role lorem ipsum</p>
+                            </div>
+                        </div>
+                        <div className="mt-3">
+                            <p>Lorem ipsum dolor sit amet, consectetur <br /> iscing elit, sed do eiusmod tempor incididunt ut labore elit,</p>
+                            <p className="mt-4">17 oct 2024</p>
+                        </div>
                     </div>
                 </div>
                 <div className='w-[450px] h-[270px] backdrop-brightness-150 rounded-xl mt-10'>
