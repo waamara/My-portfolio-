@@ -3,7 +3,7 @@ import Star from "../src/assets/Staricon.png"
 
 const About = () => {
     return (
-        <div className='flex flex-col h-screen'>
+        <div className='flex flex-col h-screen '>
             <div className='flex flex-row ml-32 mt-16'>
                 <div className='flex flex-row w-[550px] mr-20' >
                     <img src={Myimg} alt="Myimg" className='w-[150px] mr-8' />
@@ -26,9 +26,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row'>
-                <div className="ml-28">
-                    <div className='w-[250px] h-[200px] backdrop-brightness-150 rounded-xl mt-10'>
+            <div className='flex flex-row ml-28'>
+                    <div className='w-[400px] h-[300px] backdrop-brightness-150 rounded-xl mt-10 mr-10'>
                         <div className='flex flex-row justify-center p-4 '>
                             <p className="text-lg font-semibold">My skills</p>
                             <img src={Star} alt="star-img" />
@@ -37,7 +36,7 @@ const About = () => {
                             <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p> 
                         </div>
                     </div> 
-                    <div className='w-[250px] h-[200px] backdrop-brightness-150 rounded-xl mt-10'>
+                    <div className='w-[500px] h-[300px] backdrop-brightness-150 rounded-xl mt-10'>
                         <div className='flex flex-row justify-center p-4 '>
                             <p className="text-lg font-semibold">My skills</p>
                             <img src={Star} alt="star-img" />
@@ -45,8 +44,7 @@ const About = () => {
                         <div>
                             <p className="text-xs text-center" >The Advanced Technologies I Use ✨</p> 
                         </div>
-                    </div>
-                </div>
+                    </div> 
             </div>
             <div className='flex flex-row'>
                 <div></div>
